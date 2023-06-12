@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-12T10:47:10 IST" name="Surefire suite" finished-at="2023-06-12T10:49:21 IST" duration-ms="130683">
+  <suite started-at="2023-06-12T11:35:35 IST" name="Surefire suite" finished-at="2023-06-12T11:37:44 IST" duration-ms="129378">
     <groups>
       <group name="Purchase">
         <method signature="SubmitOrderTest.sumbitOrder(java.util.HashMap)[pri:0, instance:com.tests.SubmitOrderTest@43b9fd5]" name="sumbitOrder" class="com.tests.SubmitOrderTest"/>
       </group> <!-- Purchase -->
     </groups>
-    <test started-at="2023-06-12T10:47:10 IST" name="Surefire test" finished-at="2023-06-12T10:49:21 IST" duration-ms="130683">
+    <test started-at="2023-06-12T11:35:35 IST" name="Surefire test" finished-at="2023-06-12T11:37:44 IST" duration-ms="129378">
       <class name="com.tests.SubmitOrderTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.tests.SubmitOrderTest@43b9fd5]" started-at="2023-06-12T10:47:41 IST" name="launchApplication" finished-at="2023-06-12T10:48:06 IST" duration-ms="25067" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.tests.SubmitOrderTest@43b9fd5]" started-at="2023-06-12T11:36:02 IST" name="launchApplication" finished-at="2023-06-12T11:36:26 IST" duration-ms="24061" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="sumbitOrder(java.util.HashMap)[pri:0, instance:com.tests.SubmitOrderTest@43b9fd5]" started-at="2023-06-12T10:48:06 IST" name="sumbitOrder" data-provider="getData" finished-at="2023-06-12T10:48:19 IST" duration-ms="12749" status="PASS">
+        <test-method signature="sumbitOrder(java.util.HashMap)[pri:0, instance:com.tests.SubmitOrderTest@43b9fd5]" started-at="2023-06-12T11:36:26 IST" name="sumbitOrder" data-provider="getData" finished-at="2023-06-12T11:36:38 IST" duration-ms="12196" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -25,11 +25,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sumbitOrder -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.tests.SubmitOrderTest@43b9fd5]" started-at="2023-06-12T10:48:19 IST" name="launchApplication" finished-at="2023-06-12T10:48:43 IST" duration-ms="24864" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.tests.SubmitOrderTest@43b9fd5]" started-at="2023-06-12T11:36:38 IST" name="launchApplication" finished-at="2023-06-12T11:37:03 IST" duration-ms="25158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="sumbitOrder(java.util.HashMap)[pri:0, instance:com.tests.SubmitOrderTest@43b9fd5]" started-at="2023-06-12T10:48:43 IST" name="sumbitOrder" data-provider="getData" finished-at="2023-06-12T10:48:53 IST" duration-ms="9705" status="PASS">
+        <test-method signature="sumbitOrder(java.util.HashMap)[pri:0, instance:com.tests.SubmitOrderTest@43b9fd5]" started-at="2023-06-12T11:37:03 IST" name="sumbitOrder" data-provider="getData" finished-at="2023-06-12T11:37:16 IST" duration-ms="12437" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -40,27 +40,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sumbitOrder -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.tests.SubmitOrderTest@43b9fd5]" started-at="2023-06-12T10:48:53 IST" name="launchApplication" finished-at="2023-06-12T10:49:17 IST" duration-ms="23932" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.tests.SubmitOrderTest@43b9fd5]" started-at="2023-06-12T11:37:16 IST" name="launchApplication" finished-at="2023-06-12T11:37:40 IST" duration-ms="24483" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="orderHistory()[pri:0, instance:com.tests.SubmitOrderTest@43b9fd5]" started-at="2023-06-12T10:49:17 IST" name="orderHistory" finished-at="2023-06-12T10:49:21 IST" depends-on-methods="com.tests.SubmitOrderTest.sumbitOrder" duration-ms="3581" status="PASS">
+        <test-method signature="orderHistory()[pri:0, instance:com.tests.SubmitOrderTest@43b9fd5]" started-at="2023-06-12T11:37:40 IST" name="orderHistory" finished-at="2023-06-12T11:37:44 IST" depends-on-methods="com.tests.SubmitOrderTest.sumbitOrder" duration-ms="3694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderHistory -->
       </class> <!-- com.tests.SubmitOrderTest -->
       <class name="com.tests.ErrorValidationsTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.tests.ErrorValidationsTest@82ea68c]" started-at="2023-06-12T10:47:10 IST" name="launchApplication" finished-at="2023-06-12T10:47:39 IST" duration-ms="29228" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.tests.ErrorValidationsTest@82ea68c]" started-at="2023-06-12T11:35:35 IST" name="launchApplication" finished-at="2023-06-12T11:36:01 IST" duration-ms="26191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="sumbitOrder()[pri:0, instance:com.tests.ErrorValidationsTest@82ea68c]" started-at="2023-06-12T10:47:39 IST" name="sumbitOrder" finished-at="2023-06-12T10:47:41 IST" duration-ms="1479" status="PASS">
+        <test-method signature="sumbitOrder()[pri:0, instance:com.tests.ErrorValidationsTest@82ea68c]" started-at="2023-06-12T11:36:01 IST" name="sumbitOrder" finished-at="2023-06-12T11:36:02 IST" duration-ms="1092" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sumbitOrder -->
       </class> <!-- com.tests.ErrorValidationsTest -->
       <class name="com.test.maven.LearnMavan.StreamsTest">
-        <test-method signature="displayNames()[pri:0, instance:com.test.maven.LearnMavan.StreamsTest@53976f5c]" started-at="2023-06-12T10:47:10 IST" name="displayNames" finished-at="2023-06-12T10:47:10 IST" duration-ms="5" status="PASS">
+        <test-method signature="displayNames()[pri:0, instance:com.test.maven.LearnMavan.StreamsTest@53976f5c]" started-at="2023-06-12T11:35:35 IST" name="displayNames" finished-at="2023-06-12T11:35:35 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- displayNames -->

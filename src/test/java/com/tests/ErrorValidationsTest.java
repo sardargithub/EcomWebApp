@@ -21,6 +21,7 @@ public class ErrorValidationsTest extends BaseTest{
 		String errorMessage=landingPage.getErrorMessage();
 		System.out.println(errorMessage);
 		Assert.assertEquals("Incorrect email or password.",landingPage.getErrorMessage());
+		System.out.println("This is Testing");
 	
 		
 		
